@@ -1,0 +1,49 @@
+.booking{
+    background-image: url("https://images.unsplash.com/photo-1587019158091-1a103c5dd17f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmxpZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color: wheat;
+    width:50%;
+    position: relative;
+    left:25%;
+    top:30%;
+    border-radius: 20px;
+    padding:20px;
+}
+.place{
+    display: flex;
+    gap:20px;
+}
+
+.timings{
+    display: flex;
+    gap:20px;
+
+}
+
+.check{
+    cursor: pointer;
+    background-color: teal;
+    color: antiquewhite;
+    border-radius: 10px;
+    width:100px;
+    border: none;
+    height:30px;
+}
+.check:hover{
+    color:coral;
+}
+.offers{
+    display: flex;
+    gap:10px;
+}
